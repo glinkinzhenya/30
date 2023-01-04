@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+    border: 5px solid #306c1e;
+    padding: 20px;
+}
+
+
+.gerb {
+    text-align: center;
+}
+
+.gerb-image {
+    /* width: 100px; */
+    height: 200px;
+    margin-right: 20px;
+}
+
+.box {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    /* background-color: yellow; */
+    justify-content: space-between;
+}
+
+.box-left {
+    width: 200px;
+    /* background-color: blue; */
+}
+
+.content {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    /* background-color: red; */
+    width: 408px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flag {}
+
+.flag-image {
+    width: 408px;
+}
+
+.box-rigth {
+    width: 200px;
+    /* background-color: orange; */
+}
+
+.box-image {
+    width: 100%;
+}
